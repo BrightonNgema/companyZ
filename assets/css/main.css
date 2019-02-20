@@ -1,0 +1,399 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-top: 3rem;
+  color: #5a5a5a;
+}
+
+button .primary-button:active{
+  border:0px solid white
+}
+button .primary-button:focus{
+  border:0px solid white
+}
+
+.btn-outline-light, .btn-danger{
+  font-size:9px;
+  letter-spacing: 2px;
+  font-weight: lighter;
+  font-family: Lato
+}
+
+button .primary-button::after{
+  border:0px solid white
+}
+button .primary-button:hover{
+  background-color:white;
+  border-radius: 14px;
+  width:327px;
+  height:74px;
+  padding-top: 20px
+}
+ button .primary-button {
+  border-color:white;
+  border-style: solid;
+  border-width: 0px;
+  padding: 0px 0px 0px;
+ }
+
+ .title-bar{
+   padding-top: 30px;
+ }
+ .company-title{
+  font-size: 30.8px;
+  color: #ED2853;
+  letter-spacing: 0;
+  text-align: center;
+  font-weight: lighter;
+  margin-top: -2px
+ }
+
+ .companyZ{
+  font-family: Lato;
+  font-size: 30.8px;
+  color: #fff;
+  letter-spacing: 0;
+  text-align: center;
+ }
+
+.carousel-caption p {
+  margin-bottom: 1.25rem;
+  font-family: Lato;
+  font-size: 18px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  text-align: center;
+  font-weight: bold;
+  
+}
+
+.image-button:hover{
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.welcome-header{
+  font-size: 30px;
+  font-family: Lato;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  text-align: center;
+  font-weight: bold
+}
+
+.services{
+  padding:30px 0px 30px;
+  min-height:327px; 
+  width: 100%; 
+  background-image:url('../img/Icon BG.png'); 
+  background-size: cover; 
+  background-repeat: no-repeat
+}
+.service-header{
+  margin-top: 24px;
+  font-family: Lato;
+  font-size: 16px;
+  color: #1A2939;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 24px;
+  font-weight: bold
+}
+
+.service-content{
+  font-family: Lato;
+  font-size: 14px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+.mt-40{
+  margin-top: 40px
+}
+
+
+.awards{
+  padding:10px 0px 30px 0px;
+  min-height:436px; 
+  width: 100%;
+  background-image:url('../img/Award Winning Platform Strip@2x.png'); 
+  background-size: cover; 
+  background-repeat: no-repeat
+}
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.cover-caption {
+  top: 8em;
+  z-index: 10;
+  position: absolute;
+  right: 15%;
+  bottom: 20px;
+  left: 15%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+.divider{
+  width:30px;
+  height:5px;
+  display:inline-block;
+}
+
+.cover-buttons{
+  margin-top: 6em;
+  display: inline-block;
+}
+.cover-inner {
+  display: block;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+/* Declare heights because of positioning of img element */
+.cover-background {
+  height: 40em;
+  background-image: url('../img/Main\ Header\ Image.png');
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+}
+.cover-background > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  overflow: auto
+}
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+.primary-button{
+  background-image: linear-gradient(-180deg, #F12953 0%, #D3133B 97%);
+  border-radius: 14px;
+  width:327px;
+  height:74px;
+  padding-top: 20px;
+  cursor: pointer;
+}
+
+.trading-button button:hover{
+  background-color:white;
+  border-radius: 14px;
+  width:327px;
+  height:74px;
+  padding-top: 20px
+}
+
+
+.primary-button-text:hover{
+  font-size: 14px;
+  color:#D3133B;
+  font-family: 'LatoWebHeavy', sans-serif;
+  letter-spacing: 3px;
+}
+
+
+
+.primary-button-text{
+  font-size: 14px;
+  color:white;
+  font-family: 'LatoWebHeavy', sans-serif;
+  letter-spacing: 3px;
+}
+
+.aboutus-heading{
+  margin-top: 24px;
+  color: white;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  font-size: 24px;
+  color: #1A2939;
+
+  line-height: 34px;
+  margin-bottom: 20px;
+}
+
+.aboutus-content{
+  font-family: Lato;
+  font-size: 14px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-bottom:30px;
+}
+
+.aboutus-links{
+  position:absolute; 
+  border-bottom: 1px solid #D0021B;
+  padding-bottom: 10px; 
+  bottom:-50px;
+  font-family: Lato;
+  font-size: 12px;
+  color: #4A4A4A;
+  letter-spacing: 3.43px;
+}
+
+.aboutus-links:hover{
+  letter-spacing: 8px;
+  cursor: pointer;
+}
+
+.award-heading{
+  font-size:40px; 
+  color: white;
+  font-weight: lighter;
+  letter-spacing: 2px;
+}
+.all-awards-link{
+  margin-top: 24px;
+  font-size: 12px;
+  color:white;
+  border-bottom: 1px solid #fff;
+  position:absolute; 
+  padding-bottom:10px;
+  letter-spacing: 5px;
+}
+.award-type{
+  margin-top: 15px;
+  font-family: Lato;
+  font-size: 15px;
+  color: #FFFFFF;
+  letter-spacing: 1px;
+  text-align: center;
+  line-height: 19px;
+}
+
+.award-year{
+  font-family: Lato;
+  font-size: 9px;
+  margin-top:-10px;
+  color: #fff;
+  letter-spacing: 1px;
+  text-align: center;
+  line-height: 19px;
+}
+
+
+/*   -----------------------     nav bar override --------------------------- */
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+  font-size: 8px;
+  letter-spacing: 2px;
+  text-align: right;
+  line-height: 10px;
+  font-family: Lato
+}
+
+.navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #dc3545;
+}
+
+.navbar-dark .navbar-nav .nav-link.disabled {
+    color: rgba(255, 255, 255, .25)
+}
+
+
+/* Footer
+------------------------- */
+
+.footer-content{
+  font-family: Lato;
+  font-size: 11px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  line-height: 18px;
+  margin-top:10px
+}
+
+
+.footer-link{
+  font-family: Lato;
+  font-size: 9px;
+  color: #FFFFFF;
+  letter-spacing: 2px;
+  text-align: right;
+  padding-left: 10px;
+}
+
+.divider {
+  margin: 1rem 0; /* Space out the Bootstrap <hr> more */
+  border-color: transparent
+}
+
+.footer-social{
+  margin-top: 10px;
+  margin-bottom: 30px;
+  margin-left: 5%
+}
+
+
+.footer-social img{
+  padding-left: 30px
+}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-family: Lato;
+    font-size: 32px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-align: center;
+  }
+
+  .welcome-header{
+    font-size: 55px;
+    font-family: Lato;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-align: center;
+    font-weight: bold
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+
+  .award-heading{
+    font-size:54px; 
+    color: white;
+    font-weight: lighter;
+    letter-spacing: 2px;
+  }
+
+  .footer-social{
+    position:absolute; 
+    right:-13.5%;
+    margin-top:-30px;
+  }
+}
